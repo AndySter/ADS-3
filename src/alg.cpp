@@ -10,7 +10,7 @@ int cbinsearch(int *arr, int size, int value) {
       for (int i=mid; i >= min; i--) {
           if (arr[i] == value)
           k++;
-          if (arr[i] != value and k != 0)
+          if (arr[i] != value && k != 0)
           break;
       }
   }
@@ -18,7 +18,7 @@ int cbinsearch(int *arr, int size, int value) {
       for (int i=mid+1; i<=max; i++) {
           if (arr[i] == value)
           k++;
-          if (arr[i] != value and k != 0)
+          if (arr[i] != value && k != 0)
           break;
       }
   }
